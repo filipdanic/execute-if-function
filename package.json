@@ -1,0 +1,27 @@
+{
+  "name": "execute-if-function",
+  "version": "1.0.0",
+  "description": "Execute passed argument if it is a function.",
+  "main": "readme.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipdanic/executeIfFunction.git"
+  },
+  "keywords": [
+    "helper",
+    "utility",
+    "one-liners"
+  ],
+  "author": "danicfilip.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/filipdanic/executeIfFunction/issues"
+  },
+  "homepage": "https://github.com/filipdanic/executeIfFunction/readme.js",
+  "devDependencies": {
+    "tape": "^4.8.0"
+  }
+}
