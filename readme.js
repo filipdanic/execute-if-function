@@ -18,7 +18,8 @@
  * @param {*} fn
  * @returns {*}
  */
-const executeIfFunction = (fn) =>
-  typeof fn === 'function' ? fn() : fn;
+var executeIfFunction = function executeIfFunction(fn) {
+  return typeof fn === 'function' ? fn() : fn;
+};
 
 module.exports = executeIfFunction;
